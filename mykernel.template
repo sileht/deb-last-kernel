@@ -1,0 +1,9 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: mykernel
+Version: #VERSION#-#SUFFIX#
+Depends: linux-image-#VERSION# (>= #VERSION#-#SUFFIX#), linux-headers-#VERSION# (>= #VERSION#-#SUFFIX#), linux-libc-dev (>= #VERSION#-#SUFFIX#)
+Description: Just the last kernel with debian default (metapackage).
+ Just the last kernel with debian default.
