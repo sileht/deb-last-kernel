@@ -3,7 +3,7 @@
 # set -x
 set -e
 
-TAG="v5.3"
+TAG="^v5.4[^-]*$"
 SKIP_BUILD=$1
 
 cd  ~/workspace/kernel/linux

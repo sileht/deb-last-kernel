@@ -3,7 +3,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: mykernel
-Version: 5.3.11-60
-Depends: linux-image-5.3.11 (>= 5.3.11-60), linux-headers-5.3.11 (>= 5.3.11-60), linux-libc-dev (>= 5.3.11-60)
+Version: 5.3.13-64
+Depends: linux-image-5.3.13 (>= 5.3.13-64), linux-headers-5.3.13 (>= 5.3.13-64), linux-libc-dev (>= 5.3.13-64)
 Description: Just the last kernel with debian default (metapackage).
  Just the last kernel with debian default.
