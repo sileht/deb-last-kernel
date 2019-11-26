@@ -11,6 +11,9 @@ git fetch --all --tags -q
 VERSION=$(git tag | grep $TAG | sort -V | tail -1)
 git reset --hard $VERSION
 VERSION=${VERSION#v}
+if [ ${#VERSION} -eq 3 ]; then
+    VERSION=${VERSION}.0
+fi
 NEXT_SUFFIX=$(cat .version)
 SUFFIX=$((NEXT_SUFFIX - 1))
 
